@@ -1,0 +1,78 @@
+body{
+  
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.head{
+
+    font-size: 4rem;
+
+    
+}
+.subhead{
+
+    font-size: 2rem;
+
+}
+
+.playarea{
+
+    margin: auto;
+    height: 300px;
+    width: 700px;
+    text-align: center;
+    background-color: blue;
+   
+}
+
+.p1dice{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.p2dice{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+.p{
+    height: 300px;
+    width: 300px;
+    margin: 0 25px;
+    position: relative;
+    float: left ;
+}
+.cube1,.cube2 {
+
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dot{
+    border-radius: 100%;
+    background-color: red;
+    height: 10px;
+    width: 10px;
+    margin: 3px;
+    
+}
+
+.hidden-dot{
+
+    /* display: none; */
+    background-color: blue;
+}
